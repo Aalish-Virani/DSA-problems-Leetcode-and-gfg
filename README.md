@@ -1,2 +1,2 @@
-# DSA-problems-Leetcode-gfg
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+# DSA-problems-Leetcode-and-gfg
+Data Structure and Algorithm Problems! - Repo created using [LeetHub](https://github.com/QasimWani/LeetHub)
