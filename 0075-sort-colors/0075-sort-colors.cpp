@@ -7,7 +7,7 @@ public:
         
         while(count>0){
 
-            for(short j=0; j<count; j++){
+            for(int j=0; j<count; j++){
             
                 if (nums[j] >= nums[j+1]){
                     temp = nums[j];
