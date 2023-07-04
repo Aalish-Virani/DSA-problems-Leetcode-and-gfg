@@ -7,21 +7,19 @@ public:
         
         while(count>0){
 
-            for(int j=0; j<count; j++){
+            for(short j=0; j<count; j++){
             
                 if (nums[j] >= nums[j+1]){
                     temp = nums[j];
                     nums[j] = nums[j+1];
                     nums[j+1] = temp;
+                    
                 }
                 
             }
-            
+                        
             count--;
         }
         
-        for (count = 0; count < nums.size(); count++){
-            cout<<nums[count];
-        }
     }
 };
