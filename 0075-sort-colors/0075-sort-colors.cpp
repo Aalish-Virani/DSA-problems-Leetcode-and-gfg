@@ -2,23 +2,17 @@ class Solution {
 public:
     void sortColors(vector<int>& nums) {
 
-        short temp;
-        short count = nums.size()-1;
-        
-        while(count>0){
-
-            for(int j=0; j<count; j++){
+        for (short i=0; i<nums.size()-1; i++){
             
-                if (nums[j] >= nums[j+1]){
-                    temp = nums[j];
-                    nums[j] = nums[j+1];
-                    nums[j+1] = temp;
-                    
-                }
+            for (short j=i+1; j<(nums.size()); j++){
                 
+                if (nums[i]>nums[j]){
+                    
+                    short temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+                }
             }
-                        
-            count--;
         }
         
     }
